@@ -33,9 +33,6 @@ run: $(TARGET)
 
 # Aturan 'clean': Membersihkan file hasil kompilasi (biar bersih)
 # Berguna jika ingin compile ulang dari nol
-clean:
-	rm -f $(TARGET)
-	@echo "File executable telah dihapus."
 
 # Khusus Windows (jika pakai Windows, perintah hapusnya beda)
 clean_win:
